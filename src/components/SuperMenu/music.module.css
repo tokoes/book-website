@@ -1,0 +1,241 @@
+.SuperMenuHeart {
+  margin-left: 697px;
+  margin-top: -45px;
+  width: 100px;
+  height: 100%;
+}
+.h3Main {
+  width: 80px;
+  height: 98%;
+
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.h3Main p {
+  margin-top: 16px;
+  margin-left: -16px;
+  font-size: 14px;
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.SuperMenuHead {
+  width: 1260px;
+  height: 335px;
+  background-color: white;
+  box-shadow: 0px 5px 8px black;
+  position: relative;
+  margin-left: -435px;
+  box-sizing: border-box;
+  visibility: hidden;
+}
+
+.BooksBigObj {
+  width: 263px;
+  height: 295px;
+
+  position: absolute;
+  top: 20px;
+  border-right: 0.1px solid black;
+}
+
+.BooksOneObj {
+  width: 160px;
+  height: 60px;
+  margin-left: 30px;
+
+  border-bottom: 0.1px solid gray;
+}
+
+.BooksTwoObj {
+  width: 200px;
+  height: 180px;
+
+  margin-left: 30px;
+}
+
+.first {
+  width: 160px;
+  height: 0px;
+  color: #008575;
+
+  font-size: 15px;
+
+  margin-top: 20px;
+}
+
+.two {
+  width: 160px;
+  height: 5px;
+  color: #008575;
+
+  font-size: 15px;
+  padding: 0px;
+  margin: 2px;
+  margin-top: -0px;
+}
+
+.SuperMenuFeatured {
+  width: 140px;
+
+  margin-top: 5px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.SuperMenuFeaturedTwo {
+  width: 170px;
+
+  margin-top: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+/* 
+.Genres {
+    width: 180px;
+    color: black;
+    height: 100px;
+    margin-left: 300px;
+    padding-top: 1px;
+  }
+  
+  .Genres h5 {
+    font-size: 14px;
+    width: 180px;
+    height: 2px;
+  }
+  
+  .Genres p {
+    width: 170px;
+    height: 12px;
+    color: black;
+    font-size: 14.5px;
+  }
+   */
+
+.Genres {
+  width: 130px;
+  color: black;
+  height: 100px;
+  margin-left: 300px;
+  padding-top: 1px;
+}
+
+.Genres h5 {
+  font-size: 14px;
+  width: 180px;
+  height: 2px;
+}
+
+.Genres p {
+  height: 12px;
+  color: black;
+  font-size: 14.5px;
+}
+
+.GenresTwo {
+  width: 180px;
+  color: black;
+  height: 100px;
+  margin-left: 580px;
+  margin-top: -100px;
+}
+
+.GenresTwo h5 {
+  font-size: 14px;
+  width: 180px;
+  height: 2px;
+}
+
+.GenresTwo p {
+  width: 200px;
+  height: 12px;
+  color: black;
+  font-size: 14.5px;
+}
+
+.GenresThreee {
+  width: 180px;
+  color: black;
+  height: 100px;
+  margin-left: 880px;
+  margin-top: -123px;
+}
+
+.GenresThreee h5 {
+  font-size: 14px;
+  width: 180px;
+  height: 2px;
+}
+
+.GenresThreee p {
+  width: 200px;
+  height: 12px;
+  color: black;
+  font-size: 14.5px;
+}
+
+.SuperMenuFeatured:hover p {
+  color: #008575;
+  text-decoration: underline;
+}
+
+.SuperMenuFeaturedTwo:hover p {
+  color: #008575;
+  text-decoration: underline;
+}
+
+.SuperMenuHeart:hover .h3Main {
+  border-bottom: 2px solid #008575;
+}
+
+.SuperMenuHeart:hover .h3Main p {
+  transform: rotate(270deg);
+  color: #008575;
+}
+
+.Genres h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Genres p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.GenresTwo h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.GenresTwo p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.GenresThreee h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.GenresThreee p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SuperMenuHeart:hover .SuperMenuHead {
+  visibility: visible;
+}

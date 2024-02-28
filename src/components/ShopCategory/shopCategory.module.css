@@ -1,0 +1,62 @@
+.ShopCategory {
+}
+
+.ShopCategory h1 {
+  color: black;
+}
+
+.PhotosAndDescribe {
+}
+
+.Imiges {
+  width: 1116px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagesAndTitles {
+  width: 368px;
+  height: 240px;
+}
+
+.AImg {
+}
+
+.Img {
+  width: 120px;
+  height: 180px;
+}
+
+.everyH3 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #008575;
+  margin-left: 140px;
+  margin-top: -200px;
+}
+.bigh3 {
+  width: 151px;
+}
+
+.everyA {
+  display: flex;
+  flex-direction: column;
+}
+
+.everyA a {
+  color: #008575;
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 151px;
+  padding: 0.2rem 0;
+}
+
+.bigh3 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.everyA a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

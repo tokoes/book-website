@@ -1,0 +1,21 @@
+.SuperMenuHeart {
+  margin-left: 970px;
+  margin-top: -45px;
+  width: 60px;
+  height: 100%;
+}
+.h3Main {
+  width: 40px;
+  height: 98%;
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.SuperMenuHeart:hover .h3Main {
+  border-bottom: 2px solid #008575;
+}

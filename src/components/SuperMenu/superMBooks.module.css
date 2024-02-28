@@ -1,0 +1,411 @@
+.SuperMenuHeart {
+  margin-left: 355px;
+  margin-top: -45px;
+  width: 20px;
+  height: 100%;
+}
+.h3Main {
+  width: 80px;
+  height: 98%;
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.h3Main p {
+  margin-top: 16px;
+  margin-left: -20px;
+  font-size: 14px;
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.SuperMenuHeart h3 {
+}
+
+.SuperMenuHead {
+  width: 1260px;
+  height: 425px;
+  background-color: white;
+  box-shadow: 0px 5px 8px black;
+  position: relative;
+  margin-left: -92.5px;
+  box-sizing: border-box;
+  visibility: hidden;
+}
+
+.BooksBigObj {
+  width: 265px;
+
+  border-right: 0.1px solid gray;
+  position: absolute;
+  top: 20px;
+}
+
+.BooksOneObj {
+  width: 200px;
+  height: 165px;
+  margin-left: 30px;
+
+  border-bottom: 0.1px solid gray;
+}
+
+.BooksTwoObj {
+  width: 300px;
+  height: 180px;
+
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+.first {
+  width: 160px;
+  height: 20px;
+  color: #008575;
+
+  font-size: 15px;
+  margin: 0px;
+
+  margin: 10px;
+}
+
+.two {
+  width: 160px;
+  height: 20px;
+  color: #008575;
+
+  font-size: 15px;
+
+  margin: 2px;
+}
+
+.SuperMenuFeatured {
+  width: 140px;
+
+  margin-top: 5px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.SuperMenuFeaturedTwo {
+  width: 170px;
+
+  margin-top: 5px;
+  margin-left: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.biograph {
+  width: 180px;
+  color: black;
+  height: 100px;
+  margin-left: 300px;
+  padding-top: 1px;
+}
+
+.biograph h5 {
+  font-size: 14px;
+  width: 180px;
+  height: 2px;
+}
+
+.biograph p {
+  width: 170px;
+  height: 10px;
+  color: black;
+  font-size: 14.5px;
+}
+
+.Literature {
+  width: 180px;
+  height: 100px;
+
+  margin-left: 300px;
+  margin-top: 120px;
+}
+
+.Literature h5 {
+  width: 180px;
+  height: 2px;
+
+  color: black;
+  font-size: 14px;
+}
+
+.Literature p {
+  width: 120px;
+  height: 10px;
+  color: black;
+
+  font-size: 14.5px;
+}
+
+.Children {
+  width: 180px;
+  height: 200px;
+
+  margin-left: 550px;
+  margin-top: -320px;
+}
+
+.Children h5 {
+  width: 180px;
+  height: 1px;
+
+  color: black;
+  font-size: 14px;
+}
+
+.Children p {
+  width: 125px;
+  height: 10px;
+  color: black;
+
+  font-size: 14.5px;
+}
+
+.Mystery {
+  width: 180px;
+  height: 200px;
+
+  margin-left: 550px;
+  margin-top: -28px;
+}
+
+.Mystery h5 {
+  width: 180px;
+  height: 1px;
+
+  color: black;
+  font-size: 14px;
+}
+
+.Mystery p {
+  width: 125px;
+  height: 10px;
+  color: black;
+
+  font-size: 14.5px;
+}
+
+.Education {
+  width: 180px;
+  height: 200px;
+
+  margin-left: 770px;
+  margin-top: -420px;
+}
+
+.Education h5 {
+  width: 180px;
+  height: 1px;
+
+  color: black;
+  font-size: 14px;
+}
+
+.Education p {
+  width: 125px;
+  height: 10px;
+  color: black;
+
+  font-size: 14.5px;
+}
+
+.Religion {
+  width: 180px;
+  height: 200px;
+
+  margin-left: 770px;
+  margin-top: -26px;
+}
+
+.Religion h5 {
+  width: 180px;
+  height: 1px;
+
+  color: black;
+  font-size: 14px;
+}
+
+.Religion p {
+  width: 125px;
+  height: 10px;
+  color: black;
+
+  font-size: 14.5px;
+}
+
+.History {
+  width: 180px;
+  height: 200px;
+
+  margin-left: 1000px;
+  margin-top: -420px;
+}
+
+.History h5 {
+  width: 180px;
+  height: 1px;
+
+  color: black;
+  font-size: 14px;
+}
+
+.History p {
+  width: 125px;
+  height: 10px;
+  color: black;
+
+  font-size: 14.5px;
+}
+
+.Categories {
+  width: 180px;
+  height: 200px;
+
+  margin-left: 1000px;
+  margin-top: -26px;
+}
+
+.Categories h5 {
+  width: 180px;
+  height: 1px;
+
+  color: black;
+  font-size: 14px;
+}
+
+.Categories p {
+  width: 165px;
+  height: 10px;
+  color: black;
+
+  font-size: 14.5px;
+}
+
+.SuperMenuFeatured:hover p {
+  color: #008575;
+  text-decoration: underline;
+}
+
+.SuperMenuFeaturedTwo:hover p {
+  color: #008575;
+  text-decoration: underline;
+}
+
+.SuperMenuHeart:hover .h3Main {
+  border-bottom: 2px solid #008575;
+}
+
+.SuperMenuHeart:hover .h3Main p {
+  transform: rotate(270deg);
+  color: #008575;
+}
+
+.biograph h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.biograph p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Literature h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Literature p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Children h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Children p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Mystery h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Mystery p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Education h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Education p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Religion h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Religion p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.History h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.History p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Categories h5:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Categories p:hover {
+  color: #008575;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SuperMenuHeart:hover .SuperMenuHead {
+  visibility: visible;
+}

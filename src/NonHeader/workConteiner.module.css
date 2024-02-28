@@ -1,0 +1,697 @@
+.WorkCont {
+  width: 1116px;
+  height: 490px;
+  color: black;
+
+  margin-left: 265px;
+  margin-top: 50px;
+}
+
+.WorkHeadCont {
+  display: flex;
+}
+
+.leftHand {
+  width: 250px;
+  height: 490px;
+}
+
+.leftImg {
+  width: 218px;
+  height: 326px;
+  cursor: pointer;
+}
+
+.leftImg img {
+  width: 218px;
+  height: 326px;
+}
+
+.fourIcon {
+  width: 218px;
+  height: 25.89px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 4px;
+}
+
+.FcbkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 25.89px;
+  background-color: #4267b2;
+  cursor: pointer;
+  fill: white;
+}
+
+.PinterestIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 25.89px;
+  background-color: #cc2127;
+  cursor: pointer;
+  fill: white;
+}
+
+.TwiterIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 25.89px;
+  background-color: #1da1f2;
+  cursor: pointer;
+  fill: white;
+}
+
+.ShareIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 25.89px;
+  background-color: #008575;
+  cursor: pointer;
+  fill: white;
+}
+
+.TwoIds {
+  width: 300px;
+  margin-top: 24px;
+  font-size: 13.6px;
+}
+
+.IdOne {
+  color: black;
+  font-weight: 700;
+}
+
+.IdTwo {
+  color: black;
+  font-weight: 700;
+}
+
+.justPOne {
+  margin: 0px;
+}
+
+.justPTwo {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.MidHand {
+  width: 584px;
+  height: 490px;
+  margin: 0px 16px;
+}
+.midHead {
+  font-size: 10.5px;
+  line-height: 1.75rem;
+}
+.byATag {
+  color: black;
+
+  font-size: 16px;
+}
+
+.byATag a {
+  color: black;
+  font-size: 15px;
+  font-weight: 900;
+  color: #008575;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.SeeCustomerReviews {
+  display: flex;
+  height: 24.3px;
+  margin-top: 16px;
+}
+
+.stars {
+  width: 110px;
+  height: 24.3px;
+}
+.stars svg {
+  width: 20px;
+  height: 20px;
+  fill: yellow;
+}
+
+.buttonReviews {
+  border: none;
+  background-color: white;
+  color: #008575;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.buttonReviews:hover {
+  text-decoration: underline;
+}
+
+.midSide {
+  width: 584px;
+  height: 279px;
+}
+.HardcoverAndAudio {
+  display: flex;
+
+  width: 584px;
+  height: 83.39px;
+}
+
+.OneBox {
+  width: 126px;
+  height: 69.8px;
+  border: 1px solid;
+  transition: 0.25s;
+  cursor: pointer;
+  border-radius: 2px;
+
+  margin: 0px 10px;
+}
+.OneBox:hover {
+  background: #d2e5e0;
+}
+
+.blur {
+  border-style: dotted;
+  width: 126px;
+  height: 69.8px;
+  margin: 0px 10px;
+  color: #707070;
+}
+
+.OneBoxCliced {
+  width: 126px;
+  height: 69.8px;
+  background-color: #bfe0dc;
+  border: 1px solid;
+  margin: 0px 10px;
+}
+
+.FirstBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.Hardcore {
+  font-size: 13.6px;
+  font-weight: 700;
+}
+
+.FirstPrice {
+  padding: 8px 0px;
+}
+
+.SelectCondition {
+  display: flex;
+}
+
+.SelectCondition h5 {
+  display: flex;
+
+  width: 150px;
+  height: 20px;
+}
+
+.SelectCondition img {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.FiveCategory {
+  height: 76px;
+  display: flex;
+  margin-left: -8px;
+}
+
+.FiveButton {
+  width: 103.2px;
+  color: black;
+  margin: 7px 8px;
+  border-style: dashed;
+  color: #707070;
+  border-color: #707070;
+}
+/* 
+.FiveButtonTrue {
+  width: 103.2px;
+  color: black;
+  margin: 7px 8px;
+  color: #707070;
+  border-color: #707070;
+} */
+
+.NameResult {
+  height: 46px;
+}
+
+.FiveBoxName {
+  font-weight: 700;
+}
+
+.FiveBoxResult {
+  margin-top: 5px;
+}
+
+.downSide {
+  width: 287px;
+  height: 50px;
+}
+
+.downSideButton {
+  width: 287px;
+  height: 50px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  cursor: pointer;
+}
+
+.BothBookAndOth {
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.BothBookAndOth svg {
+}
+
+.SeeAllEd {
+  color: #008575;
+  font-weight: 700;
+}
+
+.downSide:hover .SeeAllEd {
+  color: #006a5d;
+}
+
+.RightHand {
+  width: 300px;
+  height: 490px;
+  border-left: 1px solid #d7d7d7;
+}
+
+.inside {
+  padding-left: 32px;
+  height: 490px;
+}
+
+.inside h5 {
+  font-weight: 700;
+
+  font-size: 16.4px;
+}
+.pTag {
+  font-size: 13.6px;
+}
+
+.pTag span {
+  font-weight: 700;
+}
+
+.MainPrice {
+  /* text-decoration: line-through; */
+  margin: 1rem 0 0.5rem;
+  font-weight: 700;
+  color: #a31023;
+  display: flex;
+}
+
+.Dollar {
+  margin: 0;
+}
+
+.MainPrice span {
+  font-weight: 700;
+  color: #a31023;
+  font-size: 32px;
+}
+
+.SalePrice {
+  font-size: 14.8px;
+  font-weight: 700;
+}
+
+.LastPrice span {
+  text-decoration: line-through;
+}
+
+.Available {
+  font-size: 15px;
+}
+
+.QuantitySelect {
+  margin: 1.5rem 0 2rem;
+  font-size: 1rem;
+}
+.QuantitySelect span {
+  margin-top: 10px;
+}
+
+.selector {
+  margin-left: 70px;
+  margin-top: -20px;
+}
+
+.selector select {
+  width: 67.5px;
+
+  height: 39.5px;
+}
+
+.AddCartButton {
+  width: 218px;
+  height: 45px;
+  background-color: #fc3;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.AddCartButton span {
+  font-weight: 700;
+}
+
+.AddCartButton:hover {
+  background: #ecac00;
+}
+
+.AddtoWish {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.AddtoWish svg {
+  fill: #008a4e;
+  width: 20px;
+  height: 20px;
+}
+
+.AddtoWish span {
+  color: #008a4e;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.AddtoWish:hover {
+  text-decoration: underline;
+  color: #008a4e;
+}
+
+.BookOverview {
+  color: black;
+}
+
+.BookOverview h1 {
+  color: black;
+  font-weight: 400;
+}
+
+.BookOverview p {
+  color: black;
+}
+
+.ThreeEdition {
+  background-color: #efefef;
+  min-height: 364px;
+  font-size: 17px;
+}
+
+.ThreeBig {
+  margin: 2rem 0;
+  padding: 10px 2rem;
+  /* background: transparent; */
+}
+
+.ThreeButton {
+  border-bottom: 2px solid #d7d7d7;
+}
+
+.ThreeButton button {
+  width: 215px;
+  height: 44px;
+  background-color: #efefef;
+
+  cursor: pointer;
+  border: none;
+}
+.ThreeButton p {
+  width: 200px;
+}
+
+.ThreeButton button:active .btnp,
+.ThreeButton button:focus .btnp {
+  border: 1px solid black;
+  height: 20px;
+}
+
+.ThreeButton button:hover {
+  border-bottom: 2px solid #00af9a;
+}
+
+.btnthree {
+  border-bottom: 2px solid #008575 !important;
+}
+
+.First {
+  border-top: 1px solid #d7d7d7;
+  margin-top: 30px;
+  width: auto;
+}
+
+.llh2 {
+  color: black;
+
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.BigFirstContent {
+  max-width: 1140px;
+  height: 315px;
+  display: flex;
+  overflow-x: auto;
+  margin-right: 10px;
+}
+
+.BookHead {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  position: absolute;
+  color: #fff;
+  background-color: #008575;
+  width: 124px;
+  height: 24px;
+  border-radius: 3px;
+  font-size: 14.8px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.FirstContent {
+  width: 140px;
+  height: 278px;
+  margin: 5px 25px 5px 5px;
+  background-color: white;
+  box-shadow: 0px 3px 3px black;
+}
+
+.FirstContent:hover .pFTag {
+  text-decoration: underline;
+  color: #005e53;
+}
+
+.aTag {
+  text-decoration: none;
+}
+
+.imgTag {
+  width: 140px;
+  height: 200px;
+}
+
+.TextBody {
+  padding: 1px;
+  padding-left: 4px;
+}
+
+.pFTag {
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #008575;
+}
+
+.pSTag {
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #363636;
+  overflow: hidden;
+  height: 1rem;
+  color: #363636;
+  font-weight: 400;
+  white-space: normal;
+  font-size: 13px;
+  padding-top: 4px;
+}
+
+.pFrom {
+  display: flex;
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #363636;
+  overflow: hidden;
+  height: 1rem;
+  color: #363636;
+  font-weight: 400;
+  white-space: normal;
+  font-size: 13px;
+}
+
+.pPrice {
+  margin-left: 5px;
+  color: #a31023;
+  font-weight: 700;
+  font-size: 13.7px;
+}
+
+.RealatedBig {
+  margin-top: 20px;
+  border-top: 1px solid #d7d7d7;
+}
+
+.ReleatedSubject {
+  color: #008575;
+  display: flex;
+  gap: 15px;
+}
+
+.releatedsubjectitem {
+  color: #008575;
+}
+
+.ReleatedSubjectItem:hover {
+  color: #005e53;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.MiddBorderrr {
+  margin-top: 20px;
+  background-color: #efefef;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.InputButton {
+}
+
+.InputButton input {
+  max-width: 190px;
+  height: 20px;
+  padding: 10px;
+
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgb(29, 30, 9);
+}
+
+.InputButton input:focus {
+  transition: 0.1s;
+  transition-property: box-shadow;
+}
+
+.InputButton button {
+  background-color: #dbdbdb;
+  max-width: 140px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgb(29, 30, 9);
+}
+
+.Second {
+  border-top: 1px solid #d7d7d7;
+  margin-top: 30px;
+  width: auto;
+  background-color: #eeeeee;
+}
+
+.Commentsss {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.LikeReport {
+  display: flex;
+}
+
+.Commentsss p {
+}
+
+.Like {
+  margin-left: 40px;
+}
+
+.Report {
+  margin-left: 40px;
+}
+
+.likeICon svg {
+  fill: #008575;
+}
+
+.Commentsss button {
+  padding: 0;
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: 0 0;
+  font-size: 1rem;
+  color: #008575;
+  font-weight: 600;
+  text-align: left;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  box-shadow: none;
+  color: #008575;
+  cursor: pointer;
+  margin-left: 60px;
+}
+
+.Commentsss svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.flexxx {
+  width: 10.35rem;
+  height: 50%;
+  margin: 20px;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 1rem 1 1rem 2.5rem;
+  gap: 14px;
+}

@@ -1,0 +1,40 @@
+.MainDesktopePage {
+  width: 1720px;
+  height: 1000px;
+}
+
+.HomePage {
+  width: 1116px;
+  height: 406px;
+  margin-top: 6px;
+  margin-left: 265px;
+  display: flex;
+}
+
+.ContentBar {
+  width: 1116px;
+  height: 56px;
+
+  margin-top: 16px;
+  margin-left: 265px;
+}
+
+.Content {
+  border-bottom: 1px solid #d7d7d7;
+  margin-top: 24px;
+  width: 1116px;
+  height: 1950px;
+  margin-left: 265px;
+}
+
+.ShopCategory {
+  width: 1116px;
+  height: 831px;
+  margin-left: 265px;
+  margin-top: 10px;
+}
+
+.HomeAbout {
+  height: 522px;
+  border: 1px solid #d7d7d7;
+}

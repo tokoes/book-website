@@ -1,0 +1,17 @@
+.MarketBanner {
+  width: 1116px;
+  height: 55px;
+  background-color: #442783;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 265px;
+  cursor: pointer;
+}
+
+.Banner {
+  color: white;
+  font-weight: 700;
+}

@@ -1,0 +1,36 @@
+.Dec {
+  text-decoration: none;
+  color: #00564c;
+}
+
+.HomePageBig {
+  width: auto;
+  height: auto;
+  border: 0.1px solid gray;
+}
+
+.LeftWords {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.FirstSpan {
+  color: #363636;
+  font-weight: 600;
+}
+
+.SecondSpan {
+  color: #008575;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.HomePageBig:hover .Dec {
+  text-decoration: underline;
+}
+
+.HomePageBig:hover .SecondSpan {
+  color: #00564c;
+}

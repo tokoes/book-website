@@ -1,0 +1,85 @@
+.SuperMenuHeart {
+  margin-left: 260px;
+
+  width: 90px;
+  height: 100%;
+}
+.h3Main {
+  width: 100px;
+  height: 98%;
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.h3Main p {
+  margin-top: 18px;
+  margin-left: -23px;
+  font-size: 14px;
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.SuperMenuHeart h3 {
+}
+
+.SuperMenuHead {
+  width: 1260px;
+  height: 425px;
+  background-color: white;
+  box-shadow: 0px 5px 8px black;
+  position: relative;
+  margin-left: 2px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  visibility: hidden;
+}
+.SuperMenuFeatured {
+  width: 300px;
+  height: 180px;
+  margin-top: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.SuperMenuFeatured img {
+  margin-left: 30px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.SuperMenuFeatured p {
+  width: auto;
+
+  margin-right: 10px;
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 85px;
+
+  color: black;
+}
+
+.SuperMenuFeatured:hover p {
+  color: #008575;
+  text-decoration: underline;
+}
+
+.SuperMenuHeart:hover .h3Main {
+  border-bottom: 2px solid #008575;
+}
+
+.SuperMenuHeart:hover .h3Main p {
+  transform: rotate(270deg);
+  color: #008575;
+}
+
+.SuperMenuHeart:hover .SuperMenuHead {
+  visibility: visible;
+}

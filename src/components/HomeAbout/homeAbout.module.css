@@ -1,0 +1,97 @@
+.HomeAbout {
+  width: 1116px;
+  height: 522px;
+  margin-left: 265px;
+}
+
+.h2big {
+  color: black;
+
+  font-size: 2.441rem;
+  font-weight: 300;
+}
+
+.About {
+  color: black;
+  width: 554.8px;
+}
+.About p {
+  margin-top: 0px;
+}
+
+.About span {
+  font-weight: 700;
+}
+
+.About a {
+  text-decoration: none;
+  color: #008575;
+  font-weight: 700;
+}
+
+.button {
+  width: 166px;
+  height: 48px;
+  border: 2px solid black;
+  background-color: #008575;
+
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 50px;
+  border: 2px solid black;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button a {
+  color: white;
+  font-weight: 700;
+}
+
+.box {
+  width: 150px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ytImage {
+  width: 504px;
+  height: 353px;
+  margin-left: 610px;
+  margin-top: -374px;
+}
+
+.ytImage img {
+  width: 504px;
+  height: 353px;
+}
+
+.ytImage button {
+  margin-top: 7px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: 0 0;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  box-shadow: none;
+  cursor: pointer;
+}
+.ytImage button:hover {
+  color: #00665a;
+  text-decoration: underline;
+}
+
+.box:focus {
+  border: 2px solid white;
+}
+
+.button:hover {
+  background-color: #006155;
+}

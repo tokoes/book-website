@@ -1,0 +1,63 @@
+.MainInputButton {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 90px;
+  width: 750px;
+  height: 60px;
+}
+
+.MainInputButton input {
+  width: 100%;
+  height: 34px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.MainInputButton button {
+  background-color: #008575;
+  width: 44px;
+  height: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.MainInputButton button:hover {
+  background-color: #007395;
+}
+
+.MainInputButton svg {
+  padding-top: 2px;
+  padding-left: 2px;
+  width: 22px;
+  height: 22px;
+}
+
+.FilteredInput {
+  max-width: 800px;
+  max-height: 400px;
+  display: flex;
+  background-color: #838383;
+  margin: 20px;
+  position: absolute;
+  top: 55px;
+  left: 400px;
+  overflow-x: auto;
+  z-index: 1;
+}
+
+.FilteredDivs {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.FilteredDivs img {
+  width: 100px;
+  height: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}

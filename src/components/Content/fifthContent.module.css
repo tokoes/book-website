@@ -1,0 +1,97 @@
+.BigFirstContent {
+  max-width: 1140px;
+  height: 315px;
+  display: flex;
+  overflow-x: auto;
+  margin-right: 10px;
+}
+
+.BookHead {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  position: absolute;
+  color: #fff;
+  background-color: #008575;
+  width: 124px;
+  height: 24px;
+  border-radius: 3px;
+  font-size: 14.8px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.FirstContent {
+  width: 140px;
+  height: 278px;
+  margin: 5px 25px 5px 5px;
+  background-color: white;
+  box-shadow: 0px 3px 3px black;
+}
+
+.FirstContent:hover .pFTag {
+  text-decoration: underline;
+  color: #005e53;
+}
+
+.aTag {
+  text-decoration: none;
+}
+
+.imgTag {
+  width: 140px;
+  height: 200px;
+}
+
+.TextBody {
+  padding: 1px;
+  padding-left: 4px;
+}
+
+.pFTag {
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #008575;
+}
+
+.pSTag {
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #363636;
+  overflow: hidden;
+  height: 1rem;
+  color: #363636;
+  font-weight: 400;
+  white-space: normal;
+  font-size: 13px;
+  padding-top: 4px;
+}
+
+.pFrom {
+  display: flex;
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #363636;
+  overflow: hidden;
+  height: 1rem;
+  color: #363636;
+  font-weight: 400;
+  white-space: normal;
+  font-size: 13px;
+}
+
+.pPrice {
+  margin-left: 5px;
+  color: #a31023;
+  font-weight: 700;
+  font-size: 13.7px;
+}

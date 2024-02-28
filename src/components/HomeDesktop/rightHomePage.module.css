@@ -1,0 +1,105 @@
+.RightHome {
+  width: 546px;
+  height: 406px;
+  margin-left: auto;
+}
+
+.TopCont {
+  height: 194px;
+  border: 0.1px solid gray;
+}
+
+.TopCont:hover span {
+  text-decoration: underline;
+  color: #00564c;
+}
+
+.RightHome a {
+  text-decoration: none;
+  color: #00564c;
+}
+
+.cont {
+  margin-left: 8px;
+  margin-top: 0px;
+}
+
+.FirstSpan {
+  color: #363636;
+  font-weight: 600;
+}
+
+.SecondSpan {
+  color: #008575;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.TwoPhoto {
+  height: 194.5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15.5px;
+}
+
+.left {
+  height: 194.5px;
+  border: 0.1px solid gray;
+  margin-top: 0px;
+}
+
+.LeftPhotoSpan {
+  margin-left: 8px;
+  margin-top: 0px;
+}
+
+.LeftSpanStyle {
+  color: #363636;
+  font-weight: 600;
+}
+.LeftSpanStyleSecond {
+  color: #008575;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.left a:hover {
+  text-decoration: underline;
+  color: #00564c;
+}
+
+.left a:hover span {
+  text-decoration: underline;
+  color: #00564c;
+}
+
+.right {
+  height: 194.5px;
+  border: 0.1px solid gray;
+  margin-top: 0px;
+}
+
+.rightPhotoSpan {
+  margin-left: 8px;
+  margin-top: 0px;
+}
+
+.rightSpanStyle {
+  color: #363636;
+  font-weight: 600;
+}
+.rightSpanStyleSecond {
+  color: #008575;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.right a:hover {
+  text-decoration: underline;
+  color: #00564c;
+}
+
+.right a:hover span {
+  text-decoration: underline;
+  color: #00564c;
+}
